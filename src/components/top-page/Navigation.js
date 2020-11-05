@@ -5,10 +5,10 @@ function Navigation() {
     return (
         <nav>
             <ul>
-                <li>Offer</li>
-                <li>Job</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <a href="#"><li>Offer</li></a>
+                <a href="#"><li>Job</li></a>
+                <a href="#"><li>Projects</li></a>
+                <a href="#"><li>Contact</li></a>
             </ul>
         </nav>
     )
