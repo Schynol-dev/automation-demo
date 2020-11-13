@@ -3,7 +3,10 @@ import React from "react";
 function Heading() {
 
     return (
-        <div></div>
+        <div className="Heading">
+            <h1>Heading text</h1>
+            <h3>Subtitle</h3>
+        </div>
     )
 }
 
