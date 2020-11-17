@@ -1,15 +1,25 @@
 import React from "react";
 
-import Logo from './Logo';
-import Navigation from './Navigation';
-
 function Header() {
 
     return (
-        <header>
-            <Logo />
-            <Navigation />
-        </header>
+        <div id="header">
+
+            {/* Logo */}
+            <h1 id="logo">Danzig <em>Automatik</em></h1>
+
+            {/* Navigation */}
+            <nav id="nav">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#offer">Offer</a></li>
+                    <li><a href="#job">Job</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
     )
 }
 

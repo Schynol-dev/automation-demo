@@ -6,9 +6,9 @@ function Contact() {
         <div className="contact">
             <h2>Get in touch</h2>
             <form>
-                <input />
-                <input />
-                <input />
+                <input type="text" />
+                <input type="text" />
+                <input type="text" />
                 <button>Send Message</button>
             </form>
         </div>

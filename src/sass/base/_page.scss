@@ -26,5 +26,22 @@ html {
 }
 
 body {
-    background: _palette(bg);
+    background-color: _palette(bg);
+
+    background-size: auto,
+                     cover;
+
+    background-attachment: fixed, 
+                           fixed;
+    
+    background-position: center,
+                         center;
+
+    // Stop initial anitamtions until page loads
+    &.is-preload {
+        *, *:before, *:after {
+            @include vendor('animation', 'none !important');
+            @include vendor('transition', 'none !important');
+        }
+    }
 }

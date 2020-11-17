@@ -23,7 +23,17 @@ html {
 }
 
 body {
-  background: #f7f7f7;
+  background-color: #f7f7f7;
+  background-size: auto, cover;
+  background-attachment: fixed,  fixed;
+  background-position: center, center;
+}
+
+body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+  -webkit-animation: none !important;
+  animation: none !important;
+  -webkit-transition: none !important;
+  transition: none !important;
 }
 
 html, body, div, span, applet, object,
@@ -91,6 +101,401 @@ input, select, textarea {
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
+}
+
+body, input, select, textarea {
+  color: #474747;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16.5pt;
+  font-weight: 300;
+  line-height: 1.65;
+}
+
+@media screen and (max-width: 1680px) {
+  body, input, select, textarea {
+    font-size: 13pt;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  body, input, select, textarea {
+    font-size: 12pt;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  body, input, select, textarea {
+    font-size: 12pt;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  body, input, select, textarea {
+    font-size: 12pt;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body, input, select, textarea {
+    font-size: 12pt;
+  }
+}
+
+a {
+  -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  border-bottom: dotted 1px #999;
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom-color: transparent;
+  color: #999;
+}
+
+strong, b {
+  color: inherit;
+  font-weight: 600;
+}
+
+em, i {
+  font-style: italic;
+}
+
+p {
+  margin: 0 0 2em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: inherit;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: 0 0 1em 0;
+  text-transform: uppercase;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 0;
+}
+
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+  font-weight: 200;
+}
+
+h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
+  padding-bottom: 1em;
+  border-bottom: solid 2px #e0e0e0;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+h3 {
+  font-size: 0.9em;
+}
+
+h4 {
+  font-size: 0.7em;
+}
+
+h5 {
+  font-size: 0.7em;
+}
+
+h6 {
+  font-size: 0.7em;
+}
+
+@media screen and (max-width: 736px) {
+  h2 {
+    font-size: 1em;
+  }
+  h3 {
+    font-size: 0.8em;
+  }
+}
+
+sub {
+  font-size: 0.8em;
+  position: relative;
+  top: 0.5em;
+}
+
+sup {
+  font-size: 0.8em;
+  position: relative;
+  top: -0.5em;
+}
+
+hr {
+  border: 0;
+  border-bottom: solid 2px #e0e0e0;
+  margin: 2.5em 0;
+}
+
+hr.major {
+  margin: 4em 0;
+}
+
+blockquote {
+  border-left: solid 0.5em #e0e0e0;
+  font-style: italic;
+  padding: 1em 0 1em 2em;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -webkit-transition: border-color 0.2s ease-in-out;
+  transition: border-color 0.2s ease-in-out;
+  background: #fff;
+  border: solid 1px #e0e0e0;
+  border-radius: 5px;
+  color: inherit;
+  display: block;
+  outline: 0;
+  padding: 0.75em;
+  text-decoration: none;
+  width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #37c0fb;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  line-height: 1em;
+}
+
+label {
+  display: block;
+  color: inherit;
+  font-weight: 600;
+  line-height: 1.75em;
+  margin-bottom: 0.5em;
+}
+
+::-webkit-input-placeholder {
+  position: relative;
+  top: 3px;
+}
+
+#nav {
+  cursor: default;
+  background-color: #333;
+  padding: 0;
+}
+
+#nav:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 0.75em;
+  background-color: #37c0fb;
+}
+
+#nav > ul {
+  margin: 0;
+}
+
+#nav > ul > li {
+  position: relative;
+  display: inline-block;
+  margin-left: 1em;
+}
+
+#nav > ul > li a {
+  color: #c0c0c0;
+  text-decoration: none;
+  border: 0;
+  display: block;
+  padding: 1.5em 0.5em 1.35em 0.5em;
+}
+
+#nav > ul > li:first-child {
+  margin-left: 0;
+}
+
+#nav > ul > li:hover a {
+  color: #fff;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+  background-color: #37c0fb;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 1.5em;
+  line-height: 2.75em;
+  min-width: 9em;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+button:hover,
+.button:hover {
+  background-color: #50c8fc;
+  color: #fff;
+}
+
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active,
+button:active,
+.button:active {
+  background-color: #1eb8fb;
+  color: #fff;
+}
+
+input[type="submit"].alt,
+input[type="reset"].alt,
+input[type="button"].alt,
+button.alt,
+.button.alt {
+  background-color: #555555;
+  color: #fff;
+}
+
+input[type="submit"].alt:hover,
+input[type="reset"].alt:hover,
+input[type="button"].alt:hover,
+button.alt:hover,
+.button.alt:hover {
+  background-color: #626262;
+}
+
+input[type="submit"].alt:active,
+input[type="reset"].alt:active,
+input[type="button"].alt:active,
+button.alt:active,
+.button.alt:active {
+  background-color: #484848;
+}
+
+#header {
+  text-align: center;
+  padding: 3em 0 0 0;
+  background-color: #fff;
+}
+
+#header h1 {
+  padding: 0 0 2.75em 0;
+  margin: 0;
+}
+
+#header h1 a {
+  font-size: 1.5em;
+  letter-spacing: -0.025em;
+  border: 0;
+}
+
+.wrapper {
+  padding: 5em 0 3em 0;
+}
+
+.wrapper.style1 {
+  background-color: #fff;
+}
+
+.wrapper.style2 {
+  background-color: #37c0fb;
+  color: #fff;
+}
+
+.wrapper.style2 .button {
+  background: #fff;
+  color: #474747;
+}
+
+.wrapper.style2 .button.hover {
+  color: #37c0fb;
+}
+
+#banner {
+  background-image: url("../images/stock-photo-engineer.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 28em;
+  text-align: center;
+  position: relative;
+}
+
+#banner header {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #212121;
+  background: rgba(27, 27, 27, 0.75);
+  color: #fff;
+  padding: 1.5em 0;
+}
+
+#banner header h2 {
+  display: inline-block;
+  margin: 0;
+  font-size: 1.25em;
+  vertical-align: middle;
+}
+
+#banner header h2 em {
+  opacity: 0.75;
+}
+
+#banner header .button {
+  vertical-align: middle;
+  margin-left: 1em;
 }
 
 .image {

@@ -2,6 +2,7 @@
 @import "libs/breakpoints";
 @import "libs/functions";
 @import "libs/mixins";
+@import 'libs/vendor';
 
 // Breakpoints
 
@@ -17,8 +18,20 @@
 // Base
 @import 'base/page';
 @import 'base/reset';
+@import 'base/typography'; 
 
+// Components
+@import 'components/form';
+@import 'components/logo';
+@import 'components/section';
+@import 'components/navigation';
+@import 'components/button';
 
+// Layout
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/wrapper';
+@import 'layout/banner';
 
 // TEST TEST TEST
 .image {
