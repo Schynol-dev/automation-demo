@@ -1,0 +1,15 @@
+// Footer
+#footer {
+    padding: 4em 0 8em 0;
+
+    .container {
+        margin-bottom: 4em;
+    }
+
+    .copyright {
+        color: _palette(fg-light);
+        margin-top: 1.5em;
+        text-align: center;
+        font-size: 0.9em;
+    }
+}

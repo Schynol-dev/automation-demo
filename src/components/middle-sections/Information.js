@@ -1,35 +1,78 @@
 import React from "react";
 
-import Image from './Image';
-
 import image from '../../assets/images/stock-photo-engineer.jpg';
 
 function Information() {
 
     return (
-        <div className="information">
-            <div className="information-wrapper">
-                <h2>Title</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium perspiciatis a, tempora velit quasi placeat eius officiis, repellendus laborum quis laboriosam vero nihil impedit sequi, ea quos autem! Eos?</p>
-                <Image imageSrc={image} />
+        <section id="about" className="wrapper style1">
+            <div className="container">
+                <div className="row">
+                    <section className="col-6 col-12-medium">
+                        <div className="box post">
+                            <div className="image left"><img alt="" src={image} /></div>
+                            <div className="inner">
+                                <h3>Title</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempore deserunt omnis sed fuga odio qui nulla. Vitae aliquid incidunt molestias est nulla illum, laborum dolorem, quia quas, accusantium voluptas?</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section className="col-6 col-12-medium">
+                        <div className="box post">
+                            <div className="image left"><img alt="" src={image} /></div>
+                            <div className="inner">
+                                <h3>Title</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempore deserunt omnis sed fuga odio qui nulla. Vitae aliquid incidunt molestias est nulla illum, laborum dolorem, quia quas, accusantium voluptas?</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div className="row">
+                    <section className="col-6 col-12-medium">
+                        <div className="box post">
+                            <div className="image left"><img alt="" src={image} /></div>
+                            <div className="inner">
+                                <h3>Title</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempore deserunt omnis sed fuga odio qui nulla. Vitae aliquid incidunt molestias est nulla illum, laborum dolorem, quia quas, accusantium voluptas?</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section className="col-6 col-12-medium">
+                        <div className="box post">
+                            <div className="image left"><img alt="" src={image} /></div>
+                            <div className="inner">
+                                <h3>Title</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempore deserunt omnis sed fuga odio qui nulla. Vitae aliquid incidunt molestias est nulla illum, laborum dolorem, quia quas, accusantium voluptas?</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
             </div>
-            <div className="information-wrapper">
-                <h2>Title</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium perspiciatis a, tempora velit quasi placeat eius officiis, repellendus laborum quis laboriosam vero nihil impedit sequi, ea quos autem! Eos?</p>
-                <Image imageSrc={image} />
-            </div>
-            <div className="information-wrapper">
-                <h2>Title</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium perspiciatis a, tempora velit quasi placeat eius officiis, repellendus laborum quis laboriosam vero nihil impedit sequi, ea quos autem! Eos?</p>
-                <Image imageSrc={image} />
-            </div>
-            <div className="information-wrapper">
-                <h2>Title</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium perspiciatis a, tempora velit quasi placeat eius officiis, repellendus laborum quis laboriosam vero nihil impedit sequi, ea quos autem! Eos?</p>
-                <Image imageSrc={image} />
-            </div>
-        </div>
+        </section>
     )
 }
 
 export default Information;
+
+        {/* <div className="information">
+            <div className="information-wrapper">
+                <h2>Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium perspiciatis a, tempora velit quasi placeat eius officiis, repellendus laborum quis laboriosam vero nihil impedit sequi, ea quos autem! Eos?</p>
+                <Image imageSrc={image} />
+            </div>
+            <div className="information-wrapper">
+                <h2>Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium perspiciatis a, tempora velit quasi placeat eius officiis, repellendus laborum quis laboriosam vero nihil impedit sequi, ea quos autem! Eos?</p>
+                <Image imageSrc={image} />
+            </div>
+            <div className="information-wrapper">
+                <h2>Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium perspiciatis a, tempora velit quasi placeat eius officiis, repellendus laborum quis laboriosam vero nihil impedit sequi, ea quos autem! Eos?</p>
+                <Image imageSrc={image} />
+            </div>
+            <div className="information-wrapper">
+                <h2>Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium perspiciatis a, tempora velit quasi placeat eius officiis, repellendus laborum quis laboriosam vero nihil impedit sequi, ea quos autem! Eos?</p>
+                <Image imageSrc={image} />
+            </div>
+        </div> */}

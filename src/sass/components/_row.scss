@@ -1,0 +1,27 @@
+.row {
+    @include html-grid((50px, 50px));
+
+    @include breakpoint('<=xlarge') {
+        @include html-grid((40px, 40px), 'xlarge');
+    }
+
+    @include breakpoint('<=large') {
+        @include html-grid((30px, 30px), 'large');
+    }
+
+    @include breakpoint('<=medium') {
+        @include html-grid((30px, 30px), 'medium');
+    }
+
+    @include breakpoint('<=small') {
+        @include html-grid((30px, 30px), 'small');
+    }
+
+    @include breakpoint('<=xsmall') {
+        @include html-grid((20px, 20px), 'xsmall');
+    }
+
+    @include breakpoint('<=xxsmall') {
+        @include html-grid((20px, 20px), 'xxsmall');
+    }
+}

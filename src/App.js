@@ -11,8 +11,6 @@ import Information from './components/middle-sections/Information';
 import Heading from './components/middle-sections/Heading';
 
 //bottom
-import Contact from './components/bottom-sections/Contact';
-import Media from './components/bottom-sections/Media';
 import Footer from './components/bottom-sections/Footer';
 
 function App() {
@@ -26,22 +24,12 @@ function App() {
       <Banner />
 
       {/* Section including important information about company */}
-      <section id="important">
-        <Important />
-      </section>
+      <Important />
 
       <Heading />
 
       {/* Section including some basic informations about company */}
-      <section id="information">
-        <Information />
-      </section>
-
-      {/* Contact */}
-      <section id="contact">
-        <Contact />
-        <Media />
-      </section>
+      <Information />
 
       {/* Footer */}
       <Footer />

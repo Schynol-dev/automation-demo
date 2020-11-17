@@ -3,6 +3,7 @@
 @import "libs/functions";
 @import "libs/mixins";
 @import 'libs/vendor';
+@import 'libs/html-grid';
 
 // Breakpoints
 
@@ -26,12 +27,17 @@
 @import 'components/section';
 @import 'components/navigation';
 @import 'components/button';
+@import 'components/row';
+@import 'components/box';
+@import 'components/icon';
+@import 'components/image';
 
 // Layout
 @import 'layout/footer';
 @import 'layout/header';
 @import 'layout/wrapper';
 @import 'layout/banner';
+@import 'layout/container';
 
 // TEST TEST TEST
 .image {
