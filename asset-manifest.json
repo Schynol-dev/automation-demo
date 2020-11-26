@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/automation/static/css/main.fb2c42e4.chunk.css",
-    "main.js": "/automation/static/js/main.702648b6.chunk.js",
-    "main.js.map": "/automation/static/js/main.702648b6.chunk.js.map",
-    "runtime-main.js": "/automation/static/js/runtime-main.1dea55f4.js",
-    "runtime-main.js.map": "/automation/static/js/runtime-main.1dea55f4.js.map",
-    "static/js/2.dfc50765.chunk.js": "/automation/static/js/2.dfc50765.chunk.js",
-    "static/js/2.dfc50765.chunk.js.map": "/automation/static/js/2.dfc50765.chunk.js.map",
-    "index.html": "/automation/index.html",
-    "static/css/main.fb2c42e4.chunk.css.map": "/automation/static/css/main.fb2c42e4.chunk.css.map",
-    "static/js/2.dfc50765.chunk.js.LICENSE.txt": "/automation/static/js/2.dfc50765.chunk.js.LICENSE.txt",
-    "static/media/bmw.4ba23c0f.svg": "/automation/static/media/bmw.4ba23c0f.svg",
-    "static/media/box.267eba61.svg": "/automation/static/media/box.267eba61.svg",
-    "static/media/computer.dbb72535.svg": "/automation/static/media/computer.dbb72535.svg",
-    "static/media/mercedes-benz-8.2246758d.svg": "/automation/static/media/mercedes-benz-8.2246758d.svg",
-    "static/media/robot.9aa72fca.svg": "/automation/static/media/robot.9aa72fca.svg",
-    "static/media/main.css": "/automation/static/media/stock-photo-engineer.d8cdeff9.jpg",
-    "static/media/tesla-motors.a2e6ec2f.svg": "/automation/static/media/tesla-motors.a2e6ec2f.svg"
+    "main.css": "/automation-demo/static/css/main.c13dbd0e.chunk.css",
+    "main.js": "/automation-demo/static/js/main.333f36f9.chunk.js",
+    "main.js.map": "/automation-demo/static/js/main.333f36f9.chunk.js.map",
+    "runtime-main.js": "/automation-demo/static/js/runtime-main.a15933b0.js",
+    "runtime-main.js.map": "/automation-demo/static/js/runtime-main.a15933b0.js.map",
+    "static/js/2.dfc50765.chunk.js": "/automation-demo/static/js/2.dfc50765.chunk.js",
+    "static/js/2.dfc50765.chunk.js.map": "/automation-demo/static/js/2.dfc50765.chunk.js.map",
+    "index.html": "/automation-demo/index.html",
+    "static/css/main.c13dbd0e.chunk.css.map": "/automation-demo/static/css/main.c13dbd0e.chunk.css.map",
+    "static/js/2.dfc50765.chunk.js.LICENSE.txt": "/automation-demo/static/js/2.dfc50765.chunk.js.LICENSE.txt",
+    "static/media/bmw.4ba23c0f.svg": "/automation-demo/static/media/bmw.4ba23c0f.svg",
+    "static/media/box.267eba61.svg": "/automation-demo/static/media/box.267eba61.svg",
+    "static/media/computer.dbb72535.svg": "/automation-demo/static/media/computer.dbb72535.svg",
+    "static/media/mercedes-benz-8.2246758d.svg": "/automation-demo/static/media/mercedes-benz-8.2246758d.svg",
+    "static/media/robot.9aa72fca.svg": "/automation-demo/static/media/robot.9aa72fca.svg",
+    "static/media/main.css": "/automation-demo/static/media/stock-photo-engineer.d8cdeff9.jpg",
+    "static/media/tesla-motors.a2e6ec2f.svg": "/automation-demo/static/media/tesla-motors.a2e6ec2f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1dea55f4.js",
+    "static/js/runtime-main.a15933b0.js",
     "static/js/2.dfc50765.chunk.js",
-    "static/css/main.fb2c42e4.chunk.css",
-    "static/js/main.702648b6.chunk.js"
+    "static/css/main.c13dbd0e.chunk.css",
+    "static/js/main.333f36f9.chunk.js"
   ]
 }
