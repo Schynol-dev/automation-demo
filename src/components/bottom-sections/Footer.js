@@ -18,6 +18,9 @@ function Footer() {
                                 <input type="email" name="email" id="email" placeholder="Email" />
                             </div>
                             <div className="col-12">
+                                <input type="text" name="subject" id="subject" placeholder="Subject" />
+                            </div>
+                            <div className="col-12">
                                 <textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
                             </div>
                             <div className="col-12">

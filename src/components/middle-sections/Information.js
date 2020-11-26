@@ -12,8 +12,8 @@ function Information() {
                         <div className="box post">
                             <div className="image left"><img alt="" src={image} /></div>
                             <div className="inner">
-                                <h3>Title</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempore deserunt omnis sed fuga odio qui nulla. Vitae aliquid incidunt molestias est nulla illum, laborum dolorem, quia quas, accusantium voluptas?</p>
+                                <h3>Learn more</h3>
+                                <p>We have been on the market for several years. We are a group of PLC programmers that specialize in creating new standards, integrating new modeals and preparing final documentation for the client.</p>
                             </div>
                         </div>
                     </section>
@@ -32,8 +32,8 @@ function Information() {
                         <div className="box post">
                             <div className="image left"><img alt="" src={image} /></div>
                             <div className="inner">
-                                <h3>Title</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempore deserunt omnis sed fuga odio qui nulla. Vitae aliquid incidunt molestias est nulla illum, laborum dolorem, quia quas, accusantium voluptas?</p>
+                                <h3>Our Projects</h3>
+                                <p>We have realised many projects across the world including countries like Germany, United Kingdom, United States of America and China.</p>
                             </div>
                         </div>
                     </section>
@@ -41,8 +41,8 @@ function Information() {
                         <div className="box post">
                             <div className="image left"><img alt="" src={image} /></div>
                             <div className="inner">
-                                <h3>Title</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempore deserunt omnis sed fuga odio qui nulla. Vitae aliquid incidunt molestias est nulla illum, laborum dolorem, quia quas, accusantium voluptas?</p>
+                                <h3>Headquarter</h3>
+                                <p>We have our headquerter located in Poland. Our company have worked with the largest customers in the Automotive industry, but we are not limited only to this sector.</p>
                             </div>
                         </div>
                     </section>

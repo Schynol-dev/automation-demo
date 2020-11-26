@@ -1,8 +1,8 @@
 import React from "react";
 
-import ComputerIcon from '@material-ui/icons/Computer';
-import BuildIcon from '@material-ui/icons/Build';
-import BusinessIcon from '@material-ui/icons/Business';
+import computer from '../../assets/images/computer.svg';
+import robot from '../../assets/images/robot.svg';
+import box from '../../assets/images/box.svg';
 
 function Important() {
 
@@ -12,23 +12,23 @@ function Important() {
                 <div className="row gtr-200">
                     <section className="col-4 col-12-medium">
                         <div className="box highlight">
-                            <ComputerIcon />
-                            <h3>Important</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium repudiandae eveniet repellat in alias quaerat mollitia rem? Nostrum ipsam sint facilis voluptatem maiores, amet totam, inventore quae excepturi pariatur assumenda.</p>
+                            <img alt="" src={box} />
+                            <h3>PLC Programming</h3>
+                            <p>We can help you to develop a software for your PLC - Programmable Logic Controller</p>
                         </div>
                     </section>
                     <section className="col-4 col-12-medium">
                         <div className="box highlight">
-                            <BuildIcon />
-                            <h3>Important</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium repudiandae eveniet repellat in alias quaerat mollitia rem? Nostrum ipsam sint facilis voluptatem maiores, amet totam, inventore quae excepturi pariatur assumenda.</p>
+                            <img alt="" src={robot} />
+                            <h3>Robots Programming</h3>
+                            <p>We can help you to develop a software for KUKA / ABB / FANUC robots</p>
                         </div>
                     </section>
                     <section className="col-4 col-12-medium">
                         <div className="box highlight">
-                            <BusinessIcon />
-                            <h3>Important</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium repudiandae eveniet repellat in alias quaerat mollitia rem? Nostrum ipsam sint facilis voluptatem maiores, amet totam, inventore quae excepturi pariatur assumenda.</p>
+                            <img alt="" src={computer} />
+                            <h3>Visualization</h3>
+                            <p>We can help you to develop a visualization using platforms - ZenOn / InTouch / WiCC Flexible</p>
                         </div>
                     </section>
                 </div>

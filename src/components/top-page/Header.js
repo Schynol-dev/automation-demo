@@ -1,6 +1,26 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 function Header() {
+
+    useEffect(() => {
+        
+        const navigation = document.getElementById("nav");
+        const sticky = navigation.offsetTop;
+
+        const scrollCallBack = window.addEventListener("scroll", () => {
+
+            if(window.pageYOffset > sticky) {
+                navigation.classList.add("sticky");
+            } else {
+                navigation.classList.remove("sticky");
+            }
+
+        });
+
+        return () => {
+            window.removeEventListener("scroll", scrollCallBack);
+        }
+    }, []);
 
     return (
         <div id="header">
