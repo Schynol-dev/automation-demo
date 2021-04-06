@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/automation-demo/static/css/main.c13dbd0e.chunk.css",
-    "main.js": "/automation-demo/static/js/main.333f36f9.chunk.js",
-    "main.js.map": "/automation-demo/static/js/main.333f36f9.chunk.js.map",
+    "main.css": "/automation-demo/static/css/main.1043f914.chunk.css",
+    "main.js": "/automation-demo/static/js/main.c9eda3dd.chunk.js",
+    "main.js.map": "/automation-demo/static/js/main.c9eda3dd.chunk.js.map",
     "runtime-main.js": "/automation-demo/static/js/runtime-main.a15933b0.js",
     "runtime-main.js.map": "/automation-demo/static/js/runtime-main.a15933b0.js.map",
     "static/js/2.dfc50765.chunk.js": "/automation-demo/static/js/2.dfc50765.chunk.js",
     "static/js/2.dfc50765.chunk.js.map": "/automation-demo/static/js/2.dfc50765.chunk.js.map",
     "index.html": "/automation-demo/index.html",
-    "static/css/main.c13dbd0e.chunk.css.map": "/automation-demo/static/css/main.c13dbd0e.chunk.css.map",
+    "static/css/main.1043f914.chunk.css.map": "/automation-demo/static/css/main.1043f914.chunk.css.map",
     "static/js/2.dfc50765.chunk.js.LICENSE.txt": "/automation-demo/static/js/2.dfc50765.chunk.js.LICENSE.txt",
     "static/media/bmw.4ba23c0f.svg": "/automation-demo/static/media/bmw.4ba23c0f.svg",
     "static/media/box.267eba61.svg": "/automation-demo/static/media/box.267eba61.svg",
     "static/media/computer.dbb72535.svg": "/automation-demo/static/media/computer.dbb72535.svg",
-    "static/media/mercedes-benz-8.2246758d.svg": "/automation-demo/static/media/mercedes-benz-8.2246758d.svg",
+    "static/media/main.css": "/automation-demo/static/media/kuka.7ef8cbed.jpg",
+    "static/media/mercedes.d55c56ff.svg": "/automation-demo/static/media/mercedes.d55c56ff.svg",
     "static/media/robot.9aa72fca.svg": "/automation-demo/static/media/robot.9aa72fca.svg",
-    "static/media/main.css": "/automation-demo/static/media/stock-photo-engineer.d8cdeff9.jpg",
     "static/media/tesla-motors.a2e6ec2f.svg": "/automation-demo/static/media/tesla-motors.a2e6ec2f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a15933b0.js",
     "static/js/2.dfc50765.chunk.js",
-    "static/css/main.c13dbd0e.chunk.css",
-    "static/js/main.333f36f9.chunk.js"
+    "static/css/main.1043f914.chunk.css",
+    "static/js/main.c9eda3dd.chunk.js"
   ]
 }
