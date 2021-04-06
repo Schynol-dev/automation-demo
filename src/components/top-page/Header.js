@@ -27,7 +27,7 @@ function Header() {
 
             {/* Logo */}
             <section id="home">
-                <h1 id="logo">Danzig <em>Automatik</em></h1>    
+                <h1 id="logo">Lorem <em>Automatik</em></h1>    
             </section>
             
             {/* Navigation */}
@@ -37,7 +37,6 @@ function Header() {
                     <li><a href="#offer">Offer</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="#job">Job</a></li>
                 </ul>
             </nav>
 

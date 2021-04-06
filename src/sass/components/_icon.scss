@@ -1,0 +1,9 @@
+.icon {
+    position: relative;
+    background-color: _palette(accent, bg);
+    border-radius: 100%;
+    box-shadow: 0 0 0 7px white, 0 0 0 8px _palette(border);
+    width: 8em;
+    height: 8em;
+    margin: 0 auto 2em auto;
+}

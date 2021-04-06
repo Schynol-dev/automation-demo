@@ -3,33 +3,16 @@
         text-align: center;
     }
 
-    &.post {
-        position: relative;
-        margin: 0 0 2em 0;
-
-        &:after {
-            content: '';
-            display: block;
-            clear: both;
-        }
-
-        .inner {
-            margin-left: calc(30% + 2em);
-
-            > :last-child {
-                margin-bottom: 0;
-            }
-        }
-
-        .image {
-            width: 30%;
-            height: 100%;
-            margin: 0;
-        }
+    &.map {
+        border: solid 0.15em #9998A3;
     }
 
     img {
-        max-width: 6em;
-        max-height: 6em;
+        max-width: 5em;
+        max-height: 5em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -2.5em 0 0 -2.5em;
     }
 }

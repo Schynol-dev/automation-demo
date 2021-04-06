@@ -12,21 +12,27 @@ function Important() {
                 <div className="row gtr-200">
                     <section className="col-4 col-12-medium">
                         <div className="box highlight">
-                            <img alt="" src={box} />
+                            <div className="icon">
+                                <img alt="" src={box} />
+                            </div>
                             <h3>PLC Programming</h3>
                             <p>We can help you to develop a software for your PLC - Programmable Logic Controller</p>
                         </div>
                     </section>
                     <section className="col-4 col-12-medium">
                         <div className="box highlight">
-                            <img alt="" src={robot} />
+                            <div className="icon">
+                                <img alt="" src={robot} /> 
+                            </div>
                             <h3>Robots Programming</h3>
                             <p>We can help you to develop a software for KUKA / ABB / FANUC robots</p>
                         </div>
                     </section>
                     <section className="col-4 col-12-medium">
                         <div className="box highlight">
-                            <img alt="" src={computer} />
+                            <div className="icon">
+                                <img alt="" src={computer} />
+                            </div> 
                             <h3>Visualization</h3>
                             <p>We can help you to develop a visualization using platforms - ZenOn / InTouch / WiCC Flexible</p>
                         </div>

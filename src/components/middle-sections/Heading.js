@@ -1,7 +1,7 @@
 import React from "react";
 
 import bmw from "../../assets/images/bmw.svg";
-import mercedes from "../../assets/images/mercedes-benz-8.svg";
+import mercedes from "../../assets/images/mercedes.svg";
 import tesla from "../../assets/images/tesla-motors.svg";
 
 function Heading() {

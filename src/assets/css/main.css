@@ -29,13 +29,6 @@ body {
   background-position: center, center;
 }
 
-body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-  -webkit-animation: none !important;
-  animation: none !important;
-  -webkit-transition: none !important;
-  transition: none !important;
-}
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1938,34 +1931,17 @@ button.alt:active,
   text-align: center;
 }
 
-.box.post {
-  position: relative;
-  margin: 0 0 2em 0;
-}
-
-.box.post:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-.box.post .inner {
-  margin-left: calc(30% + 2em);
-}
-
-.box.post .inner > :last-child {
-  margin-bottom: 0;
-}
-
-.box.post .image {
-  width: 30%;
-  height: 100%;
-  margin: 0;
+.box.map {
+  border: solid 0.15em #9998A3;
 }
 
 .box img {
-  max-width: 6em;
-  max-height: 6em;
+  max-width: 5em;
+  max-height: 5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -2.5em 0 0 -2.5em;
 }
 
 .image {
@@ -1991,6 +1967,17 @@ button.alt:active,
 .image.left img {
   display: block;
   width: 100%;
+}
+
+.icon {
+  position: relative;
+  background-color: #37c0fb;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 0 0 7px white, 0 0 0 8px #e0e0e0;
+          box-shadow: 0 0 0 7px white, 0 0 0 8px #e0e0e0;
+  width: 8em;
+  height: 8em;
+  margin: 0 auto 2em auto;
 }
 
 #footer {
@@ -2083,7 +2070,7 @@ header.major img {
 }
 
 #banner {
-  background-image: url("../images/stock-photo-engineer.jpg");
+  background-image: url("../images/kuka.jpg");
   background-position: center center;
   background-size: cover;
   height: 28em;
